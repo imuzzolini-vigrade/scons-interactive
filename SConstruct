@@ -5,7 +5,7 @@ env.AppendUnique(CPPPATH=[f"any/random/include/directory{i}" for i in range(0,80
 
 env.Program("hello.c")
 
-# HOW TO REPRODUCE:
+# HOW TO REPRODUCE WITH MSVC ON WINDOWS:
 # 1. run "scons --interactive"
 # 2. build everything by typing "b" and hitting Enter (everything works as expected)
 # 4. edit "hello.c" (to retrigger the compilation)
